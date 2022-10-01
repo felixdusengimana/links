@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 20px 0;
   width: 100%;
 }
 
@@ -30,7 +31,8 @@
 }
 
 .LinkContainer{
-  margin-top: 30px;
+  margin: 30px 0;
+
 }
 
 .LinkContainer a{
@@ -103,5 +105,12 @@
   .App{
     background: var(--fd-background-light);
     color: var(--fd-color-dark-grey);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    max-width: 100%;
+    min-width: 100%;
   }
 }

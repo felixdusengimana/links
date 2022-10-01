@@ -2,8 +2,16 @@ import styles from './App.module.css';
 import { links } from './data/links';
 
 function App() {
+
+  const handleMode = () => {
+    const body = document.querySelector('body');
+    // body.style.colorScheme = body.style.colorScheme === 'dark' ? 'light' : 'dark';
+    console.log(body.style.colorScheme);
+  };
+
   return (
     <div class={styles.App}>
+      {/* <button onClick={handleMode}>Mode</button> */}
        <div class={styles.container}>
        <p class={styles.header}>WELCOME</p>
        <h1 class={styles.intro}>All DUSENGIMANA Felix's links.</h1>

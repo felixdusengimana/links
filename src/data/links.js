@@ -1,22 +1,27 @@
 export const links = [
     {
         id: 1,
-        url: '/',
-        text: 'home',
+        url: 'https://www.twitter.com/felix_dusenge',
+        text: 'twitter',
     },
     {
         id: 2,
-        url: '/about',
-        text: 'about',
+        url: 'https://www.github.com/felixdusengimana',
+        text: 'github',
     },
     {
         id: 3,
-        url: '/projects',
-        text: 'projects',
+        url: 'https://www.linkedin.com/in/felix-dusengimana-1445491b7/',
+        text: 'linkedin',
     },
     {
         id: 4,
-        url: '/contact',
-        text: 'contact',
+        url: 'https://instagram.com/felixdusengimana',
+        text: 'instagram',
     },
+    {
+        id: 5,
+        url: 'https://www.facebook.com/felix.dusengimana',
+        text: 'facebook',
+    }
 ]
