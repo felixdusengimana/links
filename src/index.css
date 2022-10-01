@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(assets/fonts/Inter-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(assets/fonts/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url(assets/fonts/Inter-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-semibold';
+  src: url(assets/fonts/Inter-SemiBold.ttf) format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter-Regular';
+}
+
+:root, body {
+  --fd-color-white: #fff;
+  --fd-color-black: #000;
+  --fd-color-dark-grey: #4e4e4e;
+  --fd-background-dark: #1b1b1b;
+  --fd-background-light: #fff;
+  --fd-background-light-grey: #e2e2e2;
+  --color-announcement-banner-accent: #ff6d91;
+}
+
+html, body {
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  color-scheme: light dark;
+}
+
+body {
+  font-family: 'Inter-Regular';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
