@@ -11,8 +11,8 @@ function App() {
         <Navbar/>
         <Suspense fallback={<div>Loading</div>}>
           <Content/>
+          <Footer/>
         </Suspense>
-        <Footer/>
        </div>
     </div>
   );
