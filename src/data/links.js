@@ -1,7 +1,7 @@
 export const links = [
     {
         id: 1,
-        url: 'https://www.twitter.com/felix_dusenge',
+        url: 'https://www.twitter.com/felix__dusenge',
         text: 'twitter',
     },
     {
@@ -16,12 +16,12 @@ export const links = [
     },
     {
         id: 4,
-        url: 'https://instagram.com/felixdusengimana',
+        url: 'https://instagram.com/felix.dusengimana',
         text: 'instagram',
     },
     {
         id: 5,
-        url: 'https://www.facebook.com/felix.dusengimana',
+        url: 'https://www.facebook.com/phelixdusengimana',
         text: 'facebook',
     }
 ]
